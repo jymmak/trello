@@ -5,7 +5,10 @@
 	margin: 0px;
 }
 body {
-	background-color: rgb(111, 187, 224);
+	
+	background-image: url('../assets/imagenes/casa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
     width: 100%;   
@@ -104,14 +107,7 @@ border-style: none;
 	display: inline-block;
 }
 /*******************************/
-.house{
-	position: relative;
-	float: right;
-	margin-top: 120px;
-	margin-right: 20px; 
-	width: 50%; 
-	height:380px; ;
-}
+
 #cajaGrande {
 	vertical-align: top;
 	padding-top: 6em;
@@ -203,20 +199,4 @@ border-style: none;
 }
 .borde {
 	border: 2px dashed  #A4A4A4;
-}
-
-/****media***/
-
-@media (max-width: 1024px){
-    
-}
-@media (max-width: 982px){
-
-}
-@media (max-width: 768px){
-
-}
-
-@media (max-width: 640px){
-
 }
