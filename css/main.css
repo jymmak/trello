@@ -21,7 +21,6 @@ header{
     padding: 0.4em;
 }
 
-
 .logo{
 width: 10%;
 position: absolute;
@@ -84,19 +83,7 @@ border-style: none;
 	color:rgb(212, 192, 192);
 }
 
-/*-- CSS PARA SCROLLBAR--*/
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 9px rgb(0,0,0);
-    border-radius: 1em;
-}
-::-webkit-scrollbar {
-    width: 9px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: rgb(169, 166, 166);
-    border-radius: 1em;
-}
-/*----*/
+
 .dNone {
 	display: none;
 }
@@ -106,7 +93,7 @@ border-style: none;
 .dInlineBlock {
 	display: inline-block;
 }
-/*******************************/
+
 
 #cajaGrande {
 	vertical-align: top;
